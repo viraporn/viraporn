@@ -1,0 +1,306 @@
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.inside-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 100%;
+}
+.nav-bg-color{
+
+background-color:#353535;
+
+}
+.nav-contain{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: auto;
+    
+    }
+.navbar img{
+
+    width: 200px;
+    
+    }
+.nav-list .menu {
+    color: #ff7300;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 0 20px;
+    text-decoration: none;        
+}
+@media (max-width: 1200px){
+    .nav-list .menu, .menu-last{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    }
+@media (max-width: 992px){
+.nav-list .menu, .menu-last{
+    text-align: center;
+    padding: 10px 10px;
+}
+}
+.color-line{
+    color: #999999!important;
+}
+.last-spc{
+
+    padding: 0 10px!important;
+}
+.icon-color {
+    color: #ff7800!important;
+    margin: 1px auto
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Left and right column */
+.column.side.left {
+  width: 21%;
+}
+.column.side.right {
+  width: 21%;
+}
+/* Middle column */
+.column.middle {
+  width: 58%;
+  background-color: #7a6b63;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.card {
+  background-color: #3d322e;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+.box {
+  width: 50%;
+  text-align: center;
+  float: center;
+  padding: 10px;
+}
+.boardtitle {
+    color: #d90000;
+    width: 460px;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 10px;
+}
+.creator{
+  width: 150px;
+  padding: 5px;
+  padding-right: 10px;
+  color: #0066ff;
+  font-family: Microsoft Sans Serif;
+  font-size: 13px;
+}
+.Date .heart{
+  width: 150px;
+  padding: 5px;
+  padding-right: 10px;
+  color: #FFE7B8;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #DEF1FF;
+}
+
+/*gellerry smallll*/
+div.gallery-sm{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 260px;
+}
+div.gallery-sm:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-sm img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc-sm {
+  padding: 15px;
+  text-align: center;
+}
+/*-------------------------*/
+.Pnewgame {
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #ff8c26;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.Pnewgame:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.text1 {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.bold{
+  font-weight: bold;
+}
+.des{
+  font-size: small;
+}
+
+/*Market MODs*/
+.row-mods {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.col-mods {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.col-mods img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .col-mods {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-mods {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*id*/
+#bgred {
+  background-color: #ffe0e0;
+}
+#bgblue {
+  background-color: #DEF1FF;
+}
+#bgwhite {
+  background-color: #d4d4d4;
+}
+
+#link{
+  color: #ffcbcb;
+  font-size: 14px;
+}
+#white {
+  color: #DEF1FF;
+}
+#font1 {
+  font-family: Britannic;
+  font-weight: bold;
+}
+#font2{
+  font-family: ROG Fonts;
+  letter-spacing: 9px;
+  text-shadow: 2px 2px 5px black;
+  font-weight: bold; 
+  font-size: 40px; 
+  color: #ff7d26;
+}
+#font3 {
+  font-family: the poster king;
+  font-size: 18px;
+  color: rgb(49, 43, 43);
+}
+
+
